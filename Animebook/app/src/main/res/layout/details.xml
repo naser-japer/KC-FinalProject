@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_110c62b6956c4f46e6a4a722e611bad"
+    tools:context=".DetailsActivity" >
+
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="516dp"
+        app:srcCompat="@drawable/naruto" />
+
+    <TextView
+        android:id="@+id/AnimeNameText2"
+        android:layout_width="252dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="641dp"
+        android:text="NARUTO SHIPPUDEN"
+        android:textColor="#FF5722"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Category1"
+        android:layout_width="191dp"
+        android:layout_height="122dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="508dp"
+        android:background="@drawable/free_css_particle_backgrounds_7"
+        android:text="Category :  Action, Mystery, Supernatural,"
+        android:textColor="#F3EFEF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/TheStory1"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="209dp"
+        android:text=" The Story : Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.  "
+        android:textColor="#EDE5E3"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/AnimeRate1"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="468dp"
+        android:text="Rate : 9.4"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/AnimeEpisodes1"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="158dp"
+        android:text="Episodes :500"
+        android:textColor="#E6E2E2"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Episodesduration1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="104dp"
+        android:text="Episodes duration : 24m"
+        android:textColor="#F3EFEF"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/Starimg1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="365dp"
+        android:layout_marginBottom="459dp"
+        app:srcCompat="@drawable/star" />
+
+</RelativeLayout>

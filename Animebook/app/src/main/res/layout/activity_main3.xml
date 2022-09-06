@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_110c62b6956c4f46e6a4a722e611bad"
+    tools:context=".MainActivity2">
+
+    <ListView
+        android:id="@+id/listview2"
+        android:layout_width="match_parent"
+        android:layout_height="672dp">
+
+    </ListView>
+
+    <ImageView
+        android:id="@+id/homelist"
+        android:layout_width="70dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="293dp"
+        android:layout_marginBottom="20dp"
+        android:background="#403A3A"
+        app:srcCompat="@drawable/ic_home" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="0dp"
+        android:text="Anime list"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/popularAnime"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="26dp"
+        android:background="#494343"
+        app:srcCompat="@drawable/ic_fire" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="2dp"
+        android:text="Popular Anime"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/NewAnime"
+        android:layout_width="79dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="21dp"
+        android:background="#464750"
+        app:srcCompat="@drawable/ic_new" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="3dp"
+        android:text="New Anime"
+        android:textSize="16sp" />
+</RelativeLayout>

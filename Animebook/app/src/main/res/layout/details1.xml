@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_110c62b6956c4f46e6a4a722e611bad">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="516dp"
+        app:srcCompat="@drawable/boruto" />
+
+    <TextView
+        android:id="@+id/Boruto"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="646dp"
+        android:text="Boruto Next Generation"
+        android:textColor="#FB0707"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/greng"
+        android:layout_width="176dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="521dp"
+        android:background="@drawable/free_css_particle_backgrounds_7"
+        android:text="Category :  Action, Mystery, Supernatural,"
+        android:textColor="#E4DBDB"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="475dp"
+        android:text="Rate : 9.4"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="377dp"
+        android:layout_marginBottom="476dp"
+        app:srcCompat="@drawable/ic_star_rate" />
+
+    <TextView
+        android:id="@+id/store"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="229dp"
+        android:text=" The Story : Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.  "
+        android:textColor="#D9E8E7"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/epesod"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="156dp"
+        android:text="Episodes :500"
+        android:textColor="#F3EDED"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="27dp"
+        android:text="Episodes duration : 24m"
+        android:textColor="#EDE8E8"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/ongoing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="93dp"
+        android:text="Status: ongoing"
+        android:textColor="#FBF4F4"
+        android:textSize="24sp" />
+
+</RelativeLayout>
